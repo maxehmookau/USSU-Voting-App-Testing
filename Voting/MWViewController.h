@@ -10,5 +10,7 @@
 #import "LoginConnection.h"
 
 @interface MWViewController : UIViewController <LoginConnectionDelegate>
-
+{
+    LoginConnection *loginConnection;
+}
 @end

@@ -13,10 +13,12 @@
     NSString *username;
     NSString *password;
     NSMutableURLRequest *loginRequest;
+    NSData *response;
 }
 
 -(id)initWithUsername:(NSString *) theUsername password:(NSString *)thePassword;
 -(void)login;
+-(BOOL)loginCorrect;
 
 @property (nonatomic, assign) id  delegate;
 

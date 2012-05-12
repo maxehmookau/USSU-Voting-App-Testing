@@ -6,23 +6,24 @@
 
 @implementation MWViewController
 
+#pragma mark - Login Connection Delegate Methods
+-(void)loginFailedWithError:(NSError *)error
+{
+    NSLog(@"Failure");
+}
+
+-(void)didLoginSuccesfullyWithResponse:(NSData *)response
+{
+    NSLog(@"Success");
+}
+
 - (void)viewDidLoad
 {
-    
-    
+    loginConnection = [[LoginConnection alloc] initWithUsername:@"magw20" password:@""];
+    [loginConnection setDelegate:self];
+    [loginConnection login];
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
 
 @end
