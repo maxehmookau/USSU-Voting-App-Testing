@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F1E6B6155ED1AE009E8D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F1E6B5155ED1AE009E8D9E /* UIKit.framework */; };
+		50F1E6B8155ED1AE009E8D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F1E6B7155ED1AE009E8D9E /* Foundation.framework */; };
+		50F1E6BA155ED1AE009E8D9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F1E6B9155ED1AE009E8D9E /* CoreGraphics.framework */; };
+		50F1E6C0155ED1AE009E8D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F1E6BE155ED1AE009E8D9E /* InfoPlist.strings */; };
+		50F1E6C2155ED1AE009E8D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F1E6C1155ED1AE009E8D9E /* main.m */; };
+		50F1E6C6155ED1AE009E8D9E /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F1E6C5155ED1AE009E8D9E /* MWAppDelegate.m */; };
+		50F1E6C9155ED1AE009E8D9E /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F1E6C8155ED1AE009E8D9E /* MWViewController.m */; };
+		50F1E6CC155ED1AE009E8D9E /* MWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F1E6CA155ED1AE009E8D9E /* MWViewController.xib */; };
+		50F1E6D4155ED1AE009E8D9E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F1E6D3155ED1AE009E8D9E /* SenTestingKit.framework */; };
+		50F1E6D5155ED1AE009E8D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F1E6B5155ED1AE009E8D9E /* UIKit.framework */; };
+		50F1E6D6155ED1AE009E8D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F1E6B7155ED1AE009E8D9E /* Foundation.framework */; };
+		50F1E6DE155ED1AE009E8D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F1E6DC155ED1AE009E8D9E /* InfoPlist.strings */; };
+		50F1E6E1155ED1AE009E8D9E /* VotingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F1E6E0155ED1AE009E8D9E /* VotingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F1E6D7155ED1AE009E8D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F1E6A8155ED1AE009E8D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F1E6B0155ED1AE009E8D9E;
+			remoteInfo = Voting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F1E6B1155ED1AE009E8D9E /* Voting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F1E6B5155ED1AE009E8D9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50F1E6B7155ED1AE009E8D9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50F1E6B9155ED1AE009E8D9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50F1E6BD155ED1AE009E8D9E /* Voting-Info.plist */ = {isa = PBXFileReference; path = "Voting-Info.plist"; sourceTree = "<group>"; };
+		50F1E6BF155ED1AE009E8D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F1E6C1155ED1AE009E8D9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F1E6C3155ED1AE009E8D9E /* Voting-Prefix.pch */ = {isa = PBXFileReference; path = "Voting-Prefix.pch"; sourceTree = "<group>"; };
+		50F1E6C4155ED1AE009E8D9E /* MWAppDelegate.h */ = {isa = PBXFileReference; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		50F1E6C5155ED1AE009E8D9E /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
+		50F1E6C7155ED1AE009E8D9E /* MWViewController.h */ = {isa = PBXFileReference; path = MWViewController.h; sourceTree = "<group>"; };
+		50F1E6C8155ED1AE009E8D9E /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+		50F1E6CB155ED1AE009E8D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWViewController.xib; sourceTree = "<group>"; };
+		50F1E6D2155ED1AE009E8D9E /* VotingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VotingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F1E6D3155ED1AE009E8D9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		50F1E6DB155ED1AE009E8D9E /* VotingTests-Info.plist */ = {isa = PBXFileReference; path = "VotingTests-Info.plist"; sourceTree = "<group>"; };
+		50F1E6DD155ED1AE009E8D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F1E6DF155ED1AE009E8D9E /* VotingTests.h */ = {isa = PBXFileReference; path = VotingTests.h; sourceTree = "<group>"; };
+		50F1E6E0155ED1AE009E8D9E /* VotingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VotingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F1E6AE155ED1AE009E8D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F1E6B6155ED1AE009E8D9E /* UIKit.framework in Frameworks */,
+				50F1E6B8155ED1AE009E8D9E /* Foundation.framework in Frameworks */,
+				50F1E6BA155ED1AE009E8D9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F1E6CE155ED1AE009E8D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F1E6D4155ED1AE009E8D9E /* SenTestingKit.framework in Frameworks */,
+				50F1E6D5155ED1AE009E8D9E /* UIKit.framework in Frameworks */,
+				50F1E6D6155ED1AE009E8D9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F1E6A6155ED1AE009E8D9E = {
+			isa = PBXGroup;
+			children = (
+				50F1E6BB155ED1AE009E8D9E /* Voting */,
+				50F1E6D9155ED1AE009E8D9E /* VotingTests */,
+				50F1E6B4155ED1AE009E8D9E /* Frameworks */,
+				50F1E6B2155ED1AE009E8D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F1E6B2155ED1AE009E8D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F1E6B1155ED1AE009E8D9E /* Voting.app */,
+				50F1E6D2155ED1AE009E8D9E /* VotingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F1E6B4155ED1AE009E8D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F1E6B5155ED1AE009E8D9E /* UIKit.framework */,
+				50F1E6B7155ED1AE009E8D9E /* Foundation.framework */,
+				50F1E6B9155ED1AE009E8D9E /* CoreGraphics.framework */,
+				50F1E6D3155ED1AE009E8D9E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50F1E6BB155ED1AE009E8D9E /* Voting */ = {
+			isa = PBXGroup;
+			children = (
+				50F1E6C4155ED1AE009E8D9E /* MWAppDelegate.h */,
+				50F1E6C5155ED1AE009E8D9E /* MWAppDelegate.m */,
+				50F1E6C7155ED1AE009E8D9E /* MWViewController.h */,
+				50F1E6C8155ED1AE009E8D9E /* MWViewController.m */,
+				50F1E6CA155ED1AE009E8D9E /* MWViewController.xib */,
+				50F1E6BC155ED1AE009E8D9E /* Supporting Files */,
+			);
+			path = Voting;
+			sourceTree = "<group>";
+		};
+		50F1E6BC155ED1AE009E8D9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F1E6BD155ED1AE009E8D9E /* Voting-Info.plist */,
+				50F1E6BE155ED1AE009E8D9E /* InfoPlist.strings */,
+				50F1E6C1155ED1AE009E8D9E /* main.m */,
+				50F1E6C3155ED1AE009E8D9E /* Voting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F1E6D9155ED1AE009E8D9E /* VotingTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F1E6DF155ED1AE009E8D9E /* VotingTests.h */,
+				50F1E6E0155ED1AE009E8D9E /* VotingTests.m */,
+				50F1E6DA155ED1AE009E8D9E /* Supporting Files */,
+			);
+			path = VotingTests;
+			sourceTree = "<group>";
+		};
+		50F1E6DA155ED1AE009E8D9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F1E6DB155ED1AE009E8D9E /* VotingTests-Info.plist */,
+				50F1E6DC155ED1AE009E8D9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F1E6B0155ED1AE009E8D9E /* Voting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F1E6E4155ED1AE009E8D9E /* Build configuration list for PBXNativeTarget "Voting" */;
+			buildPhases = (
+				50F1E6AD155ED1AE009E8D9E /* Sources */,
+				50F1E6AE155ED1AE009E8D9E /* Frameworks */,
+				50F1E6AF155ED1AE009E8D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voting;
+			productName = Voting;
+			productReference = 50F1E6B1155ED1AE009E8D9E /* Voting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F1E6D1155ED1AE009E8D9E /* VotingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F1E6E7155ED1AE009E8D9E /* Build configuration list for PBXNativeTarget "VotingTests" */;
+			buildPhases = (
+				50F1E6CD155ED1AE009E8D9E /* Sources */,
+				50F1E6CE155ED1AE009E8D9E /* Frameworks */,
+				50F1E6CF155ED1AE009E8D9E /* Resources */,
+				50F1E6D0155ED1AE009E8D9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F1E6D8155ED1AE009E8D9E /* PBXTargetDependency */,
+			);
+			name = VotingTests;
+			productName = VotingTests;
+			productReference = 50F1E6D2155ED1AE009E8D9E /* VotingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F1E6A8155ED1AE009E8D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MW;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 50F1E6AB155ED1AE009E8D9E /* Build configuration list for PBXProject "Voting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50F1E6A6155ED1AE009E8D9E;
+			productRefGroup = 50F1E6B2155ED1AE009E8D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F1E6B0155ED1AE009E8D9E /* Voting */,
+				50F1E6D1155ED1AE009E8D9E /* VotingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F1E6AF155ED1AE009E8D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F1E6C0155ED1AE009E8D9E /* InfoPlist.strings in Resources */,
+				50F1E6CC155ED1AE009E8D9E /* MWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F1E6CF155ED1AE009E8D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F1E6DE155ED1AE009E8D9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50F1E6D0155ED1AE009E8D9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F1E6AD155ED1AE009E8D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F1E6C2155ED1AE009E8D9E /* main.m in Sources */,
+				50F1E6C6155ED1AE009E8D9E /* MWAppDelegate.m in Sources */,
+				50F1E6C9155ED1AE009E8D9E /* MWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F1E6CD155ED1AE009E8D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F1E6E1155ED1AE009E8D9E /* VotingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F1E6D8155ED1AE009E8D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F1E6B0155ED1AE009E8D9E /* Voting */;
+			targetProxy = 50F1E6D7155ED1AE009E8D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F1E6BE155ED1AE009E8D9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F1E6BF155ED1AE009E8D9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50F1E6CA155ED1AE009E8D9E /* MWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F1E6CB155ED1AE009E8D9E /* en */,
+			);
+			name = MWViewController.xib;
+			sourceTree = "<group>";
+		};
+		50F1E6DC155ED1AE009E8D9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F1E6DD155ED1AE009E8D9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F1E6E2155ED1AE009E8D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50F1E6E3155ED1AE009E8D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F1E6E5155ED1AE009E8D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Voting/Voting-Prefix.pch";
+				INFOPLIST_FILE = "Voting/Voting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50F1E6E6155ED1AE009E8D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Voting/Voting-Prefix.pch";
+				INFOPLIST_FILE = "Voting/Voting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50F1E6E8155ED1AE009E8D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Voting.app/Voting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Voting/Voting-Prefix.pch";
+				INFOPLIST_FILE = "VotingTests/VotingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		50F1E6E9155ED1AE009E8D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Voting.app/Voting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Voting/Voting-Prefix.pch";
+				INFOPLIST_FILE = "VotingTests/VotingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F1E6AB155ED1AE009E8D9E /* Build configuration list for PBXProject "Voting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F1E6E2155ED1AE009E8D9E /* Debug */,
+				50F1E6E3155ED1AE009E8D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F1E6E4155ED1AE009E8D9E /* Build configuration list for PBXNativeTarget "Voting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F1E6E5155ED1AE009E8D9E /* Debug */,
+				50F1E6E6155ED1AE009E8D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50F1E6E7155ED1AE009E8D9E /* Build configuration list for PBXNativeTarget "VotingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F1E6E8155ED1AE009E8D9E /* Debug */,
+				50F1E6E9155ED1AE009E8D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F1E6A8155ED1AE009E8D9E /* Project object */;
+}
