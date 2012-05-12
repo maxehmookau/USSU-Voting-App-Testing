@@ -20,6 +20,7 @@
 		50F1E6D6155ED1AE009E8D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F1E6B7155ED1AE009E8D9E /* Foundation.framework */; };
 		50F1E6DE155ED1AE009E8D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F1E6DC155ED1AE009E8D9E /* InfoPlist.strings */; };
 		50F1E6E1155ED1AE009E8D9E /* VotingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F1E6E0155ED1AE009E8D9E /* VotingTests.m */; };
+		50F1E6EC155ED476009E8D9E /* LoginConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F1E6EB155ED476009E8D9E /* LoginConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,23 @@
 		50F1E6B5155ED1AE009E8D9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50F1E6B7155ED1AE009E8D9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50F1E6B9155ED1AE009E8D9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		50F1E6BD155ED1AE009E8D9E /* Voting-Info.plist */ = {isa = PBXFileReference; path = "Voting-Info.plist"; sourceTree = "<group>"; };
+		50F1E6BD155ED1AE009E8D9E /* Voting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Voting-Info.plist"; sourceTree = "<group>"; };
 		50F1E6BF155ED1AE009E8D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50F1E6C1155ED1AE009E8D9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		50F1E6C3155ED1AE009E8D9E /* Voting-Prefix.pch */ = {isa = PBXFileReference; path = "Voting-Prefix.pch"; sourceTree = "<group>"; };
-		50F1E6C4155ED1AE009E8D9E /* MWAppDelegate.h */ = {isa = PBXFileReference; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		50F1E6C3155ED1AE009E8D9E /* Voting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Voting-Prefix.pch"; sourceTree = "<group>"; };
+		50F1E6C4155ED1AE009E8D9E /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
 		50F1E6C5155ED1AE009E8D9E /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
-		50F1E6C7155ED1AE009E8D9E /* MWViewController.h */ = {isa = PBXFileReference; path = MWViewController.h; sourceTree = "<group>"; };
+		50F1E6C7155ED1AE009E8D9E /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
 		50F1E6C8155ED1AE009E8D9E /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
 		50F1E6CB155ED1AE009E8D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWViewController.xib; sourceTree = "<group>"; };
 		50F1E6D2155ED1AE009E8D9E /* VotingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VotingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F1E6D3155ED1AE009E8D9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		50F1E6DB155ED1AE009E8D9E /* VotingTests-Info.plist */ = {isa = PBXFileReference; path = "VotingTests-Info.plist"; sourceTree = "<group>"; };
+		50F1E6DB155ED1AE009E8D9E /* VotingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VotingTests-Info.plist"; sourceTree = "<group>"; };
 		50F1E6DD155ED1AE009E8D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		50F1E6DF155ED1AE009E8D9E /* VotingTests.h */ = {isa = PBXFileReference; path = VotingTests.h; sourceTree = "<group>"; };
+		50F1E6DF155ED1AE009E8D9E /* VotingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VotingTests.h; sourceTree = "<group>"; };
 		50F1E6E0155ED1AE009E8D9E /* VotingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VotingTests.m; sourceTree = "<group>"; };
+		50F1E6EA155ED476009E8D9E /* LoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginConnection.h; sourceTree = "<group>"; };
+		50F1E6EB155ED476009E8D9E /* LoginConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 		50F1E6BB155ED1AE009E8D9E /* Voting */ = {
 			isa = PBXGroup;
 			children = (
+				50F1E6ED155ED485009E8D9E /* Login */,
 				50F1E6C4155ED1AE009E8D9E /* MWAppDelegate.h */,
 				50F1E6C5155ED1AE009E8D9E /* MWAppDelegate.m */,
 				50F1E6C7155ED1AE009E8D9E /* MWViewController.h */,
@@ -149,6 +153,15 @@
 				50F1E6DC155ED1AE009E8D9E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F1E6ED155ED485009E8D9E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				50F1E6EA155ED476009E8D9E /* LoginConnection.h */,
+				50F1E6EB155ED476009E8D9E /* LoginConnection.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +274,7 @@
 				50F1E6C2155ED1AE009E8D9E /* main.m in Sources */,
 				50F1E6C6155ED1AE009E8D9E /* MWAppDelegate.m in Sources */,
 				50F1E6C9155ED1AE009E8D9E /* MWViewController.m in Sources */,
+				50F1E6EC155ED476009E8D9E /* LoginConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
