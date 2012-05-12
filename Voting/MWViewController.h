@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LoginConnection.h"
 
-@interface MWViewController : UIViewController
+@interface MWViewController : UIViewController <LoginConnectionDelegate>
 
 @end
